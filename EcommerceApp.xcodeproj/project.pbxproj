@@ -13,6 +13,12 @@
 		07F812A721F37A3200524422 /* EcommerceApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07F812A521F37A3200524422 /* EcommerceApp.xcdatamodeld */; };
 		07F812A921F37A3400524422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F812A821F37A3400524422 /* Assets.xcassets */; };
 		07F812AC21F37A3400524422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F812AA21F37A3400524422 /* LaunchScreen.storyboard */; };
+		07F812BA21F37DF800524422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F812B921F37DF800524422 /* AppDelegate.swift */; };
+		07F812BC21F37DF800524422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F812BB21F37DF800524422 /* ViewController.swift */; };
+		07F812BF21F37DF800524422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F812BD21F37DF800524422 /* Main.storyboard */; };
+		07F812C221F37DF800524422 /* AdminApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07F812C021F37DF800524422 /* AdminApp.xcdatamodeld */; };
+		07F812C721F37DF900524422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F812C521F37DF900524422 /* LaunchScreen.storyboard */; };
+		07F812CC21F37FD000524422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F812A821F37A3400524422 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +30,24 @@
 		07F812A821F37A3400524422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07F812AB21F37A3400524422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07F812AD21F37A3400524422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F812B721F37DF700524422 /* AdminApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdminApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F812B921F37DF800524422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07F812BB21F37DF800524422 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07F812BE21F37DF800524422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07F812C121F37DF800524422 /* AdminApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdminApp.xcdatamodel; sourceTree = "<group>"; };
+		07F812C621F37DF900524422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07F812C821F37DF900524422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		07F8129821F37A3200524422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F812B421F37DF700524422 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +60,9 @@
 		07F8129221F37A3200524422 = {
 			isa = PBXGroup;
 			children = (
+				07F812CE21F381E000524422 /* Shared */,
 				07F8129D21F37A3200524422 /* EcommerceApp */,
+				07F812B821F37DF800524422 /* AdminApp */,
 				07F8129C21F37A3200524422 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				07F8129B21F37A3200524422 /* EcommerceApp.app */,
+				07F812B721F37DF700524422 /* AdminApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,12 +82,32 @@
 				07F8129E21F37A3200524422 /* AppDelegate.swift */,
 				07F812A021F37A3200524422 /* ViewController.swift */,
 				07F812A221F37A3200524422 /* Main.storyboard */,
-				07F812A821F37A3400524422 /* Assets.xcassets */,
 				07F812AA21F37A3400524422 /* LaunchScreen.storyboard */,
 				07F812AD21F37A3400524422 /* Info.plist */,
 				07F812A521F37A3200524422 /* EcommerceApp.xcdatamodeld */,
 			);
 			path = EcommerceApp;
+			sourceTree = "<group>";
+		};
+		07F812B821F37DF800524422 /* AdminApp */ = {
+			isa = PBXGroup;
+			children = (
+				07F812B921F37DF800524422 /* AppDelegate.swift */,
+				07F812BB21F37DF800524422 /* ViewController.swift */,
+				07F812BD21F37DF800524422 /* Main.storyboard */,
+				07F812C521F37DF900524422 /* LaunchScreen.storyboard */,
+				07F812C821F37DF900524422 /* Info.plist */,
+				07F812C021F37DF800524422 /* AdminApp.xcdatamodeld */,
+			);
+			path = AdminApp;
+			sourceTree = "<group>";
+		};
+		07F812CE21F381E000524422 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				07F812A821F37A3400524422 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +130,23 @@
 			productReference = 07F8129B21F37A3200524422 /* EcommerceApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		07F812B621F37DF700524422 /* AdminApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F812C921F37DF900524422 /* Build configuration list for PBXNativeTarget "AdminApp" */;
+			buildPhases = (
+				07F812B321F37DF700524422 /* Sources */,
+				07F812B421F37DF700524422 /* Frameworks */,
+				07F812B521F37DF700524422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdminApp;
+			productName = AdminApp;
+			productReference = 07F812B721F37DF700524422 /* AdminApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +158,9 @@
 				ORGANIZATIONNAME = "Qudsia Mehmood";
 				TargetAttributes = {
 					07F8129A21F37A3200524422 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					07F812B621F37DF700524422 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -116,6 +179,7 @@
 			projectRoot = "";
 			targets = (
 				07F8129A21F37A3200524422 /* EcommerceApp */,
+				07F812B621F37DF700524422 /* AdminApp */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +195,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		07F812B521F37DF700524422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F812C721F37DF900524422 /* LaunchScreen.storyboard in Resources */,
+				07F812CC21F37FD000524422 /* Assets.xcassets in Resources */,
+				07F812BF21F37DF800524422 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,6 +215,16 @@
 				07F812A121F37A3200524422 /* ViewController.swift in Sources */,
 				07F812A721F37A3200524422 /* EcommerceApp.xcdatamodeld in Sources */,
 				07F8129F21F37A3200524422 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F812B321F37DF700524422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F812BC21F37DF800524422 /* ViewController.swift in Sources */,
+				07F812BA21F37DF800524422 /* AppDelegate.swift in Sources */,
+				07F812C221F37DF800524422 /* AdminApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +243,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				07F812AB21F37A3400524422 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		07F812BD21F37DF800524422 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F812BE21F37DF800524422 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07F812C521F37DF900524422 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F812C621F37DF900524422 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -287,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 833SH9MTL8;
 				INFOPLIST_FILE = EcommerceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,12 +405,47 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 833SH9MTL8;
 				INFOPLIST_FILE = EcommerceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qudsia.EcommerceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07F812CA21F37DF900524422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdminApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qudsia.AdminApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07F812CB21F37DF900524422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdminApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qudsia.AdminApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,6 +473,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		07F812C921F37DF900524422 /* Build configuration list for PBXNativeTarget "AdminApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F812CA21F37DF900524422 /* Debug */,
+				07F812CB21F37DF900524422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -347,6 +492,16 @@
 			);
 			currentVersion = 07F812A621F37A3200524422 /* EcommerceApp.xcdatamodel */;
 			path = EcommerceApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		07F812C021F37DF800524422 /* AdminApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07F812C121F37DF800524422 /* AdminApp.xcdatamodel */,
+			);
+			currentVersion = 07F812C121F37DF800524422 /* AdminApp.xcdatamodel */;
+			path = AdminApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
